@@ -6,13 +6,6 @@ GIT
       colorize
       rake
 
-GIT
-  remote: git@github.com:Deliverous/rake-utils.git
-  revision: 883352cfcafe221ceecaec66c60d74a0c9f6b6d7
-  specs:
-    rake-utils (0.0.1)
-      rake
-
 GEM
   remote: https://rubygems.org/
   specs:
@@ -25,4 +18,3 @@ PLATFORMS
 DEPENDENCIES
   rake
   rake-docker!
-  rake-utils!
