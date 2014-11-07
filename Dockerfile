@@ -14,6 +14,7 @@ RUN \
         libevent1-dev \
         nginx \
         build-essential \
+        supervisor \
     && rm -rf /var/lib/apt/lists/* \
     && pip install docker-registry==0.9.0 \
     && pip install supervisor-stdout==0.1.1 \
