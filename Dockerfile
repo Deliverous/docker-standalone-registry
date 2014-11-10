@@ -23,6 +23,7 @@ RUN \
 ADD nginx.conf /etc/nginx/nginx.conf
 ADD docker-registry.conf /etc/nginx/docker-registry.conf
 ADD registry.yaml /etc/registry/registry.yaml
+ADD supervisor.conf /etc/supervisor/conf.d/deliverous.conf
 
 WORKDIR /etc/nginx
 
