@@ -1,15 +1,13 @@
 GIT
   remote: git@github.com:Deliverous/rake-docker.git
-  revision: 25faa3ecce18f463a0e947d2e6d8918582a62778
+  revision: 2600aa42a87080b01891ef37b01cffccd8d99122
   specs:
     rake-docker (0.0.1)
-      colorize
       rake
 
 GEM
   remote: https://rubygems.org/
   specs:
-    colorize (0.7.3)
     rake (10.3.2)
 
 PLATFORMS
