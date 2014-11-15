@@ -5,12 +5,12 @@ production:
     loglevel: info
     storage: local
     standalone: true
-    storage_path: /srv/var
+    storage_path: /srv/registry/var
     secret_key: riaCiew6aejuovai1gu2xai4Zoonumaghohm4iediej6Ceij1ohnooxajaefeeph
 
 development:
     loglevel: debug
     storage: local
     standalone: true
-    storage_path: /srv/var
+    storage_path: /srv/registry/var
     secret_key: riaCiew6aejuovai1gu2xai4Zoonumaghohm4iediej6Ceij1ohnooxajaefeeph

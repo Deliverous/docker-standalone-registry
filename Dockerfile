@@ -31,6 +31,6 @@ ENV DOCKER_REGISTRY_CONFIG /etc/registry/registry.yaml
 ENV SETTINGS_FLAVOR production
 
 EXPOSE 443
-VOLUME ["/srv"]
+VOLUME ["/srv/registry"]
 
 CMD ["/usr/bin/supervisord"]
